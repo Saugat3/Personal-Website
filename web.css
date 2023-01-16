@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #2A2627;
+}
+.head{
+    position: fixed;
+    width: 70%;
+    height: 100vh;
+    background-color: #2A2627;
+}
+.logo{
+    padding-right: 10%;
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding-top: 50px;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline;
+    list-style: none;
+    margin: 10px 20px ;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #E6E7E8;
+     font-weight: bold;
+}
+nav ul li a:hover{
+    color:rgb(121, 20, 3) ;
+}
+.wel{
+    margin-left: 8%;
+    margin-top: 5%;
+}
+.wel h1{
+    font-size: 7.5em;
+    color: aliceblue;
+    font-weight: 900;
+    text-shadow:#E6E7E8  1em;
+}
+.wel h1:hover{
+    right: 45%;
+}
+.wel h2{
+    font-size: 5.2em;
+    padding-left: 10px;
+    color: aliceblue;
+    font-family: 'Arimo', sans-serif;
+    line-height: 20%;
+}
+.wel h3{
+    line-height: 90%;
+    font-family: 'VT323', monospace;
+    size: 2em;
+    color: aliceblue;
+    padding-left: 10px;
+}
+.images{
+    margin-top: 18%;
+    top: 15%;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    bottom: 100;
+    right: 0px;
+}
+.images img{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s; 
+}
+.shape{
+    position: relative;
+    top: 50px;
+    height: 250%;
+    width: 120%;
+   
+}
+.images:hover .shape{
+    bottom: 40px; 
+}
+.me{
+    margin-top: 20px;
+    height: 220% ;
+}
+
+.images:hover .me{
+    left: 45%;
+}
